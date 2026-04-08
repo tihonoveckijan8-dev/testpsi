@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+  <title>Психологические тесты · Профессиональная аналитика</title>
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <!-- Основной CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="blue">
+<div class="glass-panel">
+  <div class="app-header">
+    <div class="logo-area">
+      <h1><i class="fas fa-brain" style="margin-right: 10px;"></i>Психологические тесты</h1>
+      <span>профессиональная аналитика · жидкое стекло</span>
+    </div>
+    <div>
+      <div class="settings-btn" id="openSettingsBtn">
+        <i class="fas fa-cog"></i>
+      </div>
+    </div>
+  </div>
+  <div id="dynamicContent"></div>
+</div>
+
+<!-- Модальное окно настроек -->
+<div id="settingsModal" style="display: none;"></div>
+<!-- Модальное окно подробного отчёта -->
+<div id="detailsModal" style="display: none;"></div>
+
+<!-- Основной JS -->
+<script src="script.js"></script>
+</body>
+</html>
